@@ -1,0 +1,138 @@
+.header_bar{
+    background: #e3c4ffc4 !important;
+    border-radius: 30px !important;
+    padding-left: 20px !important;
+    margin-top: 10px !important;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #cb89f9;
+    border-radius: 30px;
+}
+
+.calc_heading{
+    font-size: 20px;
+    border-bottom: 4px solid #e7e7e7;
+    padding-bottom: 8px;
+}
+
+/* by at and sell at input styles */
+.input-group-text-buy {
+    background-color: #ffffff;
+    color: white;
+    border: 2px solid #28a745;
+    padding: 4px;
+    font-size: 20px;
+    font-family: calibri;
+}
+.input-group-text-sell {
+    background-color: #ffffff;
+    color: white;
+    border: 2px solid #dc3545;
+    padding: 4px;
+    font-size: 20px;
+    font-family: calibri;
+}
+.input-group-text-qty {
+    background-color: #ebd3fc;
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+    font-family: calibri;
+}
+.input_buysell_size {
+    font-size: 30px;
+}
+
+.buy_sell_image_size{
+    height: 25px;
+}
+
+.profit{
+    color: #28a745;
+}
+.profit-box{
+    background: #ffffff;
+    padding: 10px;
+    /* position: absolute; */
+    border-radius: 10px;
+    box-shadow: 0px 1px 19px -3px #c1c1c1;
+}
+.loss{
+    color: #dc3545;
+}
+
+.cal_box{
+    background-color: rgb(255 255 255 / 38%);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 9px 42px -16px #a1a1a1;
+}
+
+.background-image-average {
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLjFwm9dk-Pth88rRat5AdvpcjH39K0f3Jzg&s'); */
+    /* background-color: rgba(16, 77, 188, 0.38); RGBA background color */
+    backdrop-filter: blur(10px); /* Blur effect */
+    background-size: cover; /* Adjust the size of the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    
+  }
+
+  .calculate_button{
+    border-radius: 10px;
+    border:2px solid black;
+    background: #ffffff;
+    font-size: 25px;
+    padding: 8px;
+    font-family: inherit;
+  }
+
+  .shake {
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+  /* responsiive */
+
+    /* Smaller screens */
+    @media (max-width: 768px) {
+        .background-image-average {
+            padding: 0px;
+        }
+
+        .input_buysell_size {
+            font-size: 23px;
+        }
+      }
+
+      /* Smaller screens */
+    @media (max-width: 540px) {
+        .background-image-average {
+            padding: 0px;
+        }
+        .calc_heading{
+            font-size: 14px;
+        }
+        .other_property_calc{
+            font-size: 17px;
+        }
+        /* .input_buysell_size {
+            font-size: 23px;
+        } */
+      }
